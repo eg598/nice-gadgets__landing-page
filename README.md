@@ -8,7 +8,7 @@ A responsive e-commerce product catalog for Apple-style gadgets. Browse phones, 
 
 ## Design Reference
 
-The UI follows an Apple-inspired design with clean product cards, smooth sliders, and a minimal color palette.
+The UI follows an Apple-inspired design with clean product cards, smooth sliders, and a minimal color palette. Layout is built from scratch with SCSS using BEM naming conventions — no UI component libraries.
 
 ## Technologies Used
 
@@ -50,10 +50,11 @@ npm start
 ## Features
 
 - **Product Catalog** — Browse phones, tablets, and accessories fetched from a local JSON API
-- **Product Details** — Dedicated detail page per product with specs and image gallery
+- **Sorting & Pagination** — Sort products by newest, price, or alphabetically; choose how many items to show per page (4 / 8 / 16 / all); all filters are reflected in the URL so you can share a specific view
+- **Product Details** — Dedicated detail page per product with full spec sheet, image gallery with thumbnail switcher, and color/capacity variant selection
 - **Shopping Cart** — Add/remove items, adjust quantities, see total price; persisted in localStorage
 - **Favorites** — Toggle favorite products; count shown in header; persisted in localStorage
 - **Homepage Sliders** — Auto-playing banner slider and scrollable "Brand New" / "Discounted" product carousels
 - **Shop by Category** — Category cards on the homepage with live model counts
-- **Responsive Design** — Optimized for mobile, tablet, and desktop with a collapsible burger menu
+- **Responsive Design** — Optimized for mobile, tablet, and desktop with a collapsible burger menu on small screens
 - **Navigation badges** — Live cart and favorites counters displayed in the header
